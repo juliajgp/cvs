@@ -1,0 +1,382 @@
+/* Configurações de fonte */
+@font-face {
+    font-family: 'Gotham';
+    src: url('../../fontes/Gotham-Bold.otf');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../../fontes/Gotham-Light.otf');
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../../fontes/Gotham-Medium.otf');
+    font-weight: 300;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Gotham' !important;
+    font-weight: 300;
+}
+
+footer {
+    height: 6.2rem;
+    margin: auto;
+    width: 60%;
+    font-size: 0.8rem;
+    font-weight: 100;
+    text-align: center;
+    color: rgb(154, 154, 154);
+}
+
+.bg-person {
+    mix-blend-mode: multiply;
+}
+
+.sticky-footer {
+    display: flex;
+    align-content: center;
+    justify-items: center;
+    color: white;
+}
+
+.sticky-footer img {
+    margin-left: 15em;
+    filter: invert(1);
+    width: 40%;
+}
+
+.sticky-footer .textos-footer {
+    font-size: 0.8rem;
+    font-weight: 100;
+    padding: 1rem;
+    width: 700px !important;
+    align-items: center;
+}
+
+.textos-footer i {
+    color: white;
+}
+
+.textos-footer p {
+    margin-top: 1rem;
+}
+
+.whatsapp {
+    background-color: green;
+    display: flex;
+    align-items: center;
+    height: 3.9rem;
+    width: 45%;
+    box-shadow: -5px 0px 8px rgb(71, 71, 71);
+    padding: 0 0 0 3rem;
+    font-size: 0.9rem;
+}
+
+.whatsapp i {
+    font-size: 2rem;
+    margin-right: 4rem;
+}
+
+.navbar-transparente {
+    background-color: rgba(197, 228, 157, 0.85);
+    position: absolute;
+    z-index: 1;
+}
+
+.navbar-bottom {
+    background-color: rgb(74, 91, 80);
+    height: 3.9rem;
+}
+
+.container-fluid {
+    height: 600px;
+}
+
+.texto-bemvindo {
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(1.5px);
+    color: rgb(200, 208, 181);
+    text-align: right;
+    padding: 15rem 20rem 3rem 15rem !important;
+    transform: translate(0, -5.2rem);
+}
+
+.texto-bemvindo h1 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 2.5rem;
+    line-height: 2.5rem;
+}
+
+.texto-bemvindo p {
+    font-weight: 100;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+}
+
+.form-home {
+    transform: translate(-18rem, 4rem);
+    background-color: rgb(74, 91, 80);
+    height: 30rem;
+}
+
+.form-home h1 {
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 1rem 4rem;
+    padding: 0 4rem;
+}
+
+.form-home form {
+    padding: 0 0.8rem;
+}
+
+.form-home textarea {
+    height: 120px;
+}
+
+
+.form-home input, .form-home textarea {
+    margin: 0.2rem 0 !important;
+}
+
+
+::placeholder {
+    color: rgb(174, 182, 157) !important;
+    font-size: 0.75rem;
+    opacity: 1; /* Firefox */
+}
+
+.lista {
+    background-color: rgba(161, 179, 122, 0.9);
+    margin-left: 53%;
+    padding: 2rem 3rem;
+    color: white;
+    font-weight: 100;
+    font-size: 0.85rem;
+    line-height: 2rem;
+}
+
+.text-center img {
+    width: 2rem;
+    filter: invert(100%);
+}
+
+.fotos-galeria {
+    padding: 0 10em;
+}
+
+.foto-galeria1, .foto-galeria {
+    text-align: center;
+}
+
+.foto-galeria1 img, .foto-galeria img {
+    margin-bottom: 10px;
+}
+
+.foto-galeria p, .foto-galeria1 p {
+    font-weight: 100;
+    font-size: 12px;
+}
+
+.foto-galeria1 p {
+    color: rgb(173, 95, 74);;
+}
+
+.texto-galeria1, .texto-galeria, .foto-galeria p {
+    text-align: center;
+    color: rgb(74, 91, 80);
+    margin-bottom: 20px;
+}
+
+.texto-galeria1 h1 {
+    font-weight: 600;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.texto-galeria {
+    margin: 0 20rem;
+}
+
+.texto-galeria p {
+    font-weight: bold;
+    color: rgb(173, 95, 74);
+    font-size: 0.95rem;
+}
+
+.itens-estrut {
+    padding: 1.5rem 8rem 0;
+}
+
+.itens-galeria {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.itens-galeria p {
+    align-self: baseline;
+    text-transform: uppercase;
+    font-weight: 100;
+    margin-top: 0.5rem;
+    font-size: 0.7rem;
+    color: rgb(174, 182, 157);
+}
+
+.sustent h1 {
+    text-transform: uppercase;
+    margin: 2rem 2rem;
+    padding-right: 10rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.sustent, .turismo {
+    margin: 1rem 0 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sustent p, .turismo p {
+    font-weight: 100;
+    margin-left: 2rem;
+    font-size: 15px;
+    padding-right: 20em;
+}
+
+.sustent {
+    color: rgb(74, 91, 80);
+    margin-bottom: 0;
+}
+
+.img-planta {
+    padding: 2rem 16rem;
+}
+
+.img-planta img {
+    mix-blend-mode: multiply;
+    padding: 1rem 0;
+    width: 100%;
+}
+
+.doisquartos {
+    background-color: rgba(201, 198, 198, 0.7);
+    mix-blend-mode: multiply;
+    z-index: 2;
+}
+
+.doisquartos .andar2 {
+    width: 85%;
+}
+
+.turismo p {
+    color: rgb(174, 182, 157);
+}
+
+#home {
+    background: url(../../imagens/MDR_FITNESS\ CENTER_LD.jpg);
+    background-attachment: absolute;
+    background-size: cover;
+}
+
+#galeria .button {
+    background-color: rgb(173, 95, 74);
+    border: none;
+    width: 30%;
+    color: white;
+    padding: 15px 30px 15px 40px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 0.9rem;
+}
+
+#home .button, #distancias .button {
+    background-color: rgb(173, 95, 74);
+    border: none;
+    margin-top: 0.2rem;
+    padding: 1rem 2rem;
+    border-radius: 3px;
+    color: white;
+    text-align: center;
+    font-weight: 100;
+    font-size: 0.65rem;
+}
+
+#teste {
+    background: url(../../imagens/img-lp.jpg);
+    background-attachment: absolute;
+    background-position: bottom;
+    background-size: cover;
+    height: 350px;
+}
+
+#galeria {
+    padding: 40px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#estrutura, #planta {
+    padding: 2.5em 2em 1em 2em;
+    background-color: rgb(245, 232, 223);
+    color: rgb(173, 95, 74);
+    text-align: center;
+}
+
+#estrutura h1, #planta h1 {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: rgb(173, 95, 74);
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+#ipes {
+    text-align: center;
+    padding: 2em 16em 1em;
+    color: rgb(74, 91, 80);
+}
+
+#ipes h1 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.7rem;
+}
+
+#sustent img, #turismo img {
+    height: 100%;
+    width: 100%;
+}
+
+#local {
+    padding: 0 15rem;
+    margin-bottom: 2rem;
+}
+
+#distancias {
+    margin: 0 18rem;
+    padding: 2rem;
+    font-size: 0.9rem;
+}
+
+.mapa img{
+    height: 100%;
+    width: 100%;
+}
