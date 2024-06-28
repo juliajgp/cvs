@@ -1,19 +1,19 @@
 /* Configurações de fonte */
 @font-face {
     font-family: 'Gotham';
-    src: url('../../fontes/Gotham-Bold.otf');
+    src: url('../fontes/Gotham-Bold.otf');
     font-weight: 600;
 }
 
 @font-face {
     font-family: 'Gotham';
-    src: url('../../fontes/Gotham-Light.otf');
+    src: url('../fontes/Gotham-Light.otf');
     font-weight: 100;
 }
 
 @font-face {
     font-family: 'Gotham';
-    src: url('../../fontes/Gotham-Medium.otf');
+    src: url('../fontes/Gotham-Medium.otf');
     font-weight: 300;
 }
 
